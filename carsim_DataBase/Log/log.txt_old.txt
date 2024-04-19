@@ -1,0 +1,36 @@
+2024-04-18T20:02:29 Logfile initialized.
+2024-04-18T20:02:29 (Info):    CarSim 2022.1
+2024-04-18T20:02:29 (Info):    -
+2024-04-18T20:02:29 (Info):    command-line: 
+2024-04-18T20:02:29 (Info):    -
+2024-04-18T20:02:29 (Info):    Working Dir: D:\carsim_test\
+2024-04-18T20:02:29 (Info):    Program Dir: D:\carsim2022\CarSim2022.1_Prog\
+2024-04-18T20:02:29 (Info):    -
+2024-04-18T20:02:29 (Info):    OS Version:        6.2 (build 9200)
+2024-04-18T20:02:29 (Info):    CPU Architecture:  x64
+2024-04-18T20:02:29 (Info):    CPU Count:         12
+2024-04-18T20:02:29 (Info):    CPU Level/Rev:     6/42242
+2024-04-18T20:02:29 (Info):    Start Mem Total:   16149 MB
+2024-04-18T20:02:29 (Info):    Start Mem Used:    74%
+2024-04-18T20:02:29 (Info):    -
+2024-04-18T20:02:29 (Info):    Loaded dataset index cache in 0.00s, 0.7 megabytes.
+2024-04-18T20:02:29 (Info):    Error: A license manager is already running.
+2024-04-18T20:02:30 (Info):    License check took 0.45 seconds.
+2024-04-18T20:02:30 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2022.1".
+2024-04-18T20:02:30 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2022.1".
+2024-04-18T20:02:31 (Info):    Initial setup took 0.69 seconds.
+2024-04-18T20:02:31 (Info):    Auto updates took 0.00 seconds.
+2024-04-18T20:02:32 (Info):    Loaded last screen in 1.16 seconds.
+2024-04-18T20:02:32 (Info):    Total init time 2.62 seconds.
+2024-04-18T20:04:43 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_PUSH_WEAK <<i>> 0 ! Only the first time
+2024-04-18T20:04:43 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_ADD <<i>> 1 ! increment for each object
+2024-04-18T20:05:25 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_PUSH_WEAK <<i>> 0 ! Only the first time
+2024-04-18T20:05:25 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_ADD <<i>> 1 ! increment for each object
+2024-04-18T20:06:00 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_PUSH_WEAK <<i>> 0 ! Only the first time
+2024-04-18T20:06:00 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_ADD <<i>> 1 ! increment for each object
+2024-04-18T20:07:39 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_PUSH_WEAK <<i>> 0 ! Only the first time
+2024-04-18T20:07:39 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_ADD <<i>> 1 ! increment for each object
+2024-04-18T20:07:58 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_PUSH_WEAK <<i>> 0 ! Only the first time
+2024-04-18T20:07:58 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_ADD <<i>> 1 ! increment for each object
+2024-04-18T20:13:15 (Info):    153 index cache entries written in 0.000s
+2024-04-18T20:13:16 (Info):    Exiting application...

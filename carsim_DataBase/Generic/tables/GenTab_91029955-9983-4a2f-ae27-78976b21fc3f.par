@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Generic Table`Electric Motor: Max. emrax228`Powertrain (HEV / EV)
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+mmotor_max_TABLE LINEAR
+0, 240
+2000, 240
+2500, 238
+3000, 234
+4000, 228
+5000, 216
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD mmotor_max
+*X_LABEL motor speed (RPM)
+*Y_LABEL Maximum torque (N-m)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV / EV) } Electric Motor: Max. emrax228
+#Library : Generic Table
+#DataSet : Electric Motor: Max. emrax228
+#Category: Powertrain (HEV / EV)
+#FileID  : GenTab_91029955-9983-4a2f-ae27-78976b21fc3f
+#Created : 02-22-2024 13:49:18
+#Modified: 02-22-2024 13:49:27
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

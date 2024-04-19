@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Generic Group of Links`HEV / EV Motor: Max. emrax228`Powertrain (HEV / EV)
+#VehCode Generic Links
+PARSFILE Generic\tables\GenTab_91029955-9983-4a2f-ae27-78976b21fc3f.par
+#BlueLink0 Generic Table`Electric Motor: Max. emrax228` Powertrain (HEV / EV)` , Miscellaneous`GenTab_91029955-9983-4a2f-ae27-78976b21fc3f
+
+PARSFILE Generic\tables\GenTab_16c898aa-4380-430c-9d4f-87e29c53ea72.par
+#BlueLink1 Generic Table`emrax228 efficiency` Powertrain (HEV)` , Miscellaneous`GenTab_16c898aa-4380-430c-9d4f-87e29c53ea72
+
+#MiscYellow0
+TC_MOTOR 0.05
+IMOTOR 0.0226
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Powertrain (HEV / EV) } HEV / EV Motor: Max. emrax228
+#Library : Generic Group of Links
+#DataSet : HEV / EV Motor: Max. emrax228
+#Category: Powertrain (HEV / EV)
+#FileID  : GenLink_a9bddd35-fefc-4cec-acb0-ac0fff1613d4
+#Created : 02-22-2024 13:43:50
+#Modified: 02-22-2024 13:51:16
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Links
+
+END

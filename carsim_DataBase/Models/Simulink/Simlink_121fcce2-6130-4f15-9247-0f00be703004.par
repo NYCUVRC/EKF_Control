@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Models: Simulink`pure pursuit`vehicle control
+#RunMdlFile C:\Users\j1085\Desktop\NVR無人賽車資源\車控組檔案\carsim_ekf_2021b.slx
+SIMULINK_MODEL_FILE C:\Users\j1085\Desktop\NVR無人賽車資源\車控組檔案\carsim_ekf_2021b.slx
+#RingCtrl0 -1
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 0    
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+PARSFILE IO_Channels\I_Channels\Import_b4c3b9b3-0161-4903-bb92-a3658d9e3df1.par
+#BlueLink0 I/O Channels: Import`Empty` car_model` , Import`Import_b4c3b9b3-0161-4903-bb92-a3658d9e3df1
+
+PARSFILE IO_Channels\O_Channels\Export_562ac432-82b3-4d2f-be86-0693e97f4a33.par
+#BlueLink1 I/O Channels: Export`export_ekf` ` , Import/Export`Export_562ac432-82b3-4d2f-be86-0693e97f4a33
+
+
+LOG_ENTRY Used Dataset: Models: Simulink; { vehicle control } pure pursuit
+#Library : Models: Simulink
+#DataSet : pure pursuit
+#Category: vehicle control
+#FileID  : Simlink_121fcce2-6130-4f15-9247-0f00be703004
+#Created : 04-05-2024 17:53:29
+#Modified: 04-05-2024 17:53:29
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode 
+
+END

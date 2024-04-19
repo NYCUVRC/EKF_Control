@@ -1,0 +1,58 @@
+PARSFILE
+#FullDataName I/O Channels: Export`export_ekf`
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_c1fedf91-0d07-4ae8-8c8e-34983b102d44\Run_out_tab.txt
+
+
+EXPORT Ax
+EXPORT Ay
+EXPORT AVz
+EXPORT M_Motor
+EXPORT AVy_L1
+EXPORT AVy_R1
+EXPORT AVy_L2
+EXPORT AVy_R2
+EXPORT Steer_L1
+EXPORT Steer_R1
+EXPORT Vx
+EXPORT Vy
+EXPORT Fy_L1
+EXPORT Fy_L2
+EXPORT Fy_R1
+EXPORT Fy_R2
+#MiscYellow0
+#Number of Selected Channels: 16
+#CHN_NAME: Ax
+#CHN_NAME: Ay
+#CHN_NAME: AVz
+#CHN_NAME: M_Motor
+#CHN_NAME: AVy_L1
+#CHN_NAME: AVy_R1
+#CHN_NAME: AVy_L2
+#CHN_NAME: AVy_R2
+#CHN_NAME: Steer_L1
+#CHN_NAME: Steer_R1
+#CHN_NAME: Vx
+#CHN_NAME: Vy
+#CHN_NAME: Fy_L1
+#CHN_NAME: Fy_L2
+#CHN_NAME: Fy_R1
+#CHN_NAME: Fy_R2
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Electric: Autocross` SAE: FSAE Electric` , example run`Run_c1fedf91-0d07-4ae8-8c8e-34983b102d44
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; export_ekf
+#Library : I/O Channels: Export
+#DataSet : export_ekf
+#Category: 
+#FileID  : Export_562ac432-82b3-4d2f-be86-0693e97f4a33
+#Created : 03-01-2024 15:46:50
+#Modified: 04-18-2024 20:04:05
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode Export Channels
+
+END

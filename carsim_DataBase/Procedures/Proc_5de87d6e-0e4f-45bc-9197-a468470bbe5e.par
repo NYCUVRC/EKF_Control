@@ -1,0 +1,131 @@
+PARSFILE
+#FullDataName Procedures`pure pursuit`vehicle control
+#CheckBox1 1    
+OPT_INIT_PATH 1
+#CheckBox4 0    
+
+#RingCtrl0 1
+#RingCtrl1 -1
+#RingCtrl2 0
+OPT_STOP -1
+SSTART -45
+TSTART 0
+TSTART_WRITE = 0;
+SSTOP = SSTART + 1 ;
+OPT_DIRECTION 1
+TSTOP -1
+*SPEED 18
+*TSTOP 50
+*TSTART 0
+*SSTART -45
+*SSTOP 50
+
+INSTALL_SPEED_CONTROLLER
+OPT_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+set_description SPEED_TARGET_ID Procedure: pure pursuit
+SPEED_TARGET_CONSTANT 18
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT (All Available Gears)` Closed-Loop Shifting` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Roads\3D_Road\Road_7f930470-e2a4-41b0-a90c-1f86e067a56c.par
+#BlueLink0 Road: 3D Surface (All Properties)`Autocross, Path Segment Builder` Mech. Sim. FSAE Roads` , Miscellaneous`Road_7f930470-e2a4-41b0-a90c-1f86e067a56c
+
+PARSFILE Generic\Group\GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a.par
+#BlueLink1 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a
+
+PARSFILE Generic\VS_commands\GenVS_29a222ed-bb56-4beb-9f82-45c8f9277c5d.par
+#BlueLink5 Generic VS Commands`Plots: Powertrain (EV)` Mech. Sim. FSAE & Baja: Plot Groups` , Miscellaneous`GenVS_29a222ed-bb56-4beb-9f82-45c8f9277c5d
+
+PARSFILE Events\Events_c6d09ad3-76b3-4bd5-8371-ef1678cc6a80.par
+#BlueLink7 Events`Stop Condition: Record 2 Laps` Stop Conditions` , Miscellaneous`Events_c6d09ad3-76b3-4bd5-8371-ef1678cc6a80
+
+PARSFILE Plot\Setup\Plot_dafae624-d48a-4548-93eb-fa73d080e21a.par
+#BlueLink8 Plot: Setup`Brake Control: M/C Pressure` Braking` , Plot`Plot_dafae624-d48a-4548-93eb-fa73d080e21a
+
+PARSFILE Plot\Setup\Plot_1648edcc-a936-40d5-95ab-aef2c8ede0c0.par
+#BlueLink9 Plot: Setup`Wheel Cylinder Pressures (Axle 1)` Braking` , Plot`Plot_1648edcc-a936-40d5-95ab-aef2c8ede0c0
+
+PARSFILE Plot\Setup\Plot_69834255-d2c7-40a6-b4ed-fbd22555d544.par
+#BlueLink10 Plot: Setup`Wheel Cylinder Pressures (Axle 2)` Braking` , Plot`Plot_69834255-d2c7-40a6-b4ed-fbd22555d544
+
+PARSFILE Plot\Setup\Plot_2265b386-ffdf-44a9-92e9-e0a2a4c8fec0.par
+#BlueLink11 Plot: Setup`Longitudinal Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_2265b386-ffdf-44a9-92e9-e0a2a4c8fec0
+
+PARSFILE Plot\Setup\Plot_8b22f20a-1297-43cf-9e59-a0b1d530d136.par
+#BlueLink12 Plot: Setup`Lateral Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_8b22f20a-1297-43cf-9e59-a0b1d530d136
+
+PARSFILE Plot\Setup\Plot_62d40774-ed58-4044-8614-8feb9ce47098.par
+#BlueLink14 Plot: Setup`Yaw Angle of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_62d40774-ed58-4044-8614-8feb9ce47098
+
+PARSFILE Plot\Setup\Plot_310b0189-b08d-49fc-a484-ee359eb89744.par
+#BlueLink15 Plot: Setup`Yaw Rate of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_310b0189-b08d-49fc-a484-ee359eb89744
+
+PARSFILE Plot\Setup\Plot_881b430b-dfba-4afc-a6ce-ff0d76b1c26c.par
+#BlueLink16 Plot: Setup`Pitch Angle of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_881b430b-dfba-4afc-a6ce-ff0d76b1c26c
+
+PARSFILE Plot\Setup\Plot_2865bd77-14b2-4e51-9c7f-3484aa98e979.par
+#BlueLink17 Plot: Setup`Roll Angle of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_2865bd77-14b2-4e51-9c7f-3484aa98e979
+
+PARSFILE Plot\Setup\Plot_315ea46e-b7b6-40d8-84de-a7ef2624a470.par
+#BlueLink18 Plot: Setup`Lateral Tracking vs. Station` Tracking` , Plot`Plot_315ea46e-b7b6-40d8-84de-a7ef2624a470
+
+PARSFILE Plot\Setup\Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f.par
+#BlueLink19 Plot: Setup`Y vs X - Trajectory` Tracking` , Plot`Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f
+
+PARSFILE Plot\Setup\Plot_9ea832a7-356d-48ab-845f-4d224871aa86.par
+#BlueLink20 Plot: Setup`Lap Counter` Lap Counter` , Plot`Plot_9ea832a7-356d-48ab-845f-4d224871aa86
+
+PARSFILE Plot\Setup\Plot_98eadcd4-fdee-4dc9-b1a0-537e80c706ea.par
+#BlueLink21 Plot: Setup`Longitudinal Forces (Axle 1)` Tire Forces and Moments` , Plot`Plot_98eadcd4-fdee-4dc9-b1a0-537e80c706ea
+
+PARSFILE Plot\Setup\Plot_b9d7a69c-1af1-46d3-be25-ca3a9a3b515a.par
+#BlueLink22 Plot: Setup`Longitudinal Forces (Axle 2)` Tire Forces and Moments` , Plot`Plot_b9d7a69c-1af1-46d3-be25-ca3a9a3b515a
+
+PARSFILE Plot\Setup\Plot_0ae17b35-10e1-48bb-b226-c3ed72aa451b.par
+#BlueLink23 Plot: Setup`Lateral Forces (Axle 1)` Tire Forces and Moments` , Plot`Plot_0ae17b35-10e1-48bb-b226-c3ed72aa451b
+
+PARSFILE Plot\Setup\Plot_e1053788-c2c6-4b38-8282-7030bcf7df08.par
+#BlueLink24 Plot: Setup`Lateral Forces (Axle 2)` Tire Forces and Moments` , Plot`Plot_e1053788-c2c6-4b38-8282-7030bcf7df08
+
+PARSFILE Plot\Setup\Plot_de12eea2-c7e6-47ac-a8f6-4f491244b283.par
+#BlueLink25 Plot: Setup`Vertical Forces (Front)` Tire Forces and Moments` , Plot`Plot_de12eea2-c7e6-47ac-a8f6-4f491244b283
+
+PARSFILE Plot\Setup\Plot_4fae6e50-2618-44f6-8ed7-08b8ed3fe10e.par
+#BlueLink26 Plot: Setup`Vertical Forces (Rear)` Tire Forces and Moments` , Plot`Plot_4fae6e50-2618-44f6-8ed7-08b8ed3fe10e
+
+
+#EMBEDDED_NOTES
+#Procedure for an Autocross course and an EV powertrain.
+#
+#Speed and braking control are set up in a single dataset:
+#FSAE Target Speed, Autocross
+#
+#The Target Speed from Path Preview screen has options that allow the end-user to select from different Skill and Aggressiveness levels, as well as longitudinal and lateral acceleration targets.
+#
+#Simulations such as these are very useful for studying and evaluating many aspects of the vehicle performance:
+#
+# * Aerodynamics
+# * Brakes
+# * Powertrain
+# * Steering
+# * Suspension
+# * Tire Forces
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { vehicle control } pure pursuit
+#Library : Procedures
+#DataSet : pure pursuit
+#Category: vehicle control
+#FileID  : Proc_5de87d6e-0e4f-45bc-9197-a468470bbe5e
+#Created : 04-05-2024 18:04:21
+#Modified: 04-05-2024 18:12:10
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

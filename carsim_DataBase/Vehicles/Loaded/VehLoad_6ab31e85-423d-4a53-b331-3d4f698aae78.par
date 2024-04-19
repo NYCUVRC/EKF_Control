@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Vehicle with Loads, Sensors, Trailer, etc.`Mechanical Simulation FSAE (Electric)`FSAE
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+
+symbol_push <<hitch_x>> 0
+symbol_push <<hitch_y>> 0
+symbol_push <<hitch_z>> 0
+PARSFILE Vehicles\Assembly\Vehicle_49ab17a0-c109-4624-9898-9eacb2a246fa.par
+#BlueLink0 Vehicle: Assembly`FSAE Vehicle Assembly (Electric)` Mech. Sim. FSAE & Baja` , Lead Unit`Vehicle_49ab17a0-c109-4624-9898-9eacb2a246fa
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Payloads\Custom\Custom_b9ac97d5-2238-4b5d-bb38-8089cd1b13d4.par
+#BlueLink1 Payload: Custom`FSAE Driver Mass & Inertia` FSAE` , Miscellaneous`Custom_b9ac97d5-2238-4b5d-bb38-8089cd1b13d4
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_49ab17a0-c109-4624-9898-9eacb2a246fa.png
+
+LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { FSAE } Mechanical Simulation FSAE (Electric)
+#Library : Vehicle with Loads, Sensors, Trailer, etc.
+#DataSet : Mechanical Simulation FSAE (Electric)
+#Category: FSAE
+#FileID  : VehLoad_6ab31e85-423d-4a53-b331-3d4f698aae78
+#Modified: 05-28-2021 14:58:49
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode Ind_Ind
+
+END

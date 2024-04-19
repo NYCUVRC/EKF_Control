@@ -1,0 +1,21 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Empty`car_model
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_c1fedf91-0d07-4ae8-8c8e-34983b102d44\Run_imp_tab.txt
+
+#BlueLink0 CarSim Run Control`Electric: Autocross` SAE: FSAE Electric` , example run`Run_c1fedf91-0d07-4ae8-8c8e-34983b102d44
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { car_model } Empty
+#Library : I/O Channels: Import
+#DataSet : Empty
+#Category: car_model
+#FileID  : Import_b4c3b9b3-0161-4903-bb92-a3658d9e3df1
+#Created : 04-05-2024 17:50:04
+#Modified: 04-09-2024 21:50:41
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode Import Channels
+
+END

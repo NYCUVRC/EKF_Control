@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Models: Simulink`ekf`
+#RunMdlFile D:\NVR_Control\ekf_2021\carsim_ekf_2021b.slx
+SIMULINK_MODEL_FILE D:\NVR_Control\ekf_2021\carsim_ekf_2021b.slx
+#RingCtrl0 -1
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 0    
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+PARSFILE IO_Channels\I_Channels\Import_b4c3b9b3-0161-4903-bb92-a3658d9e3df1.par
+#BlueLink0 I/O Channels: Import`Empty` car_model` , Import`Import_b4c3b9b3-0161-4903-bb92-a3658d9e3df1
+
+PARSFILE IO_Channels\O_Channels\Export_562ac432-82b3-4d2f-be86-0693e97f4a33.par
+#BlueLink1 I/O Channels: Export`export_ekf` ` , Import/Export`Export_562ac432-82b3-4d2f-be86-0693e97f4a33
+
+
+LOG_ENTRY Used Dataset: Models: Simulink; ekf
+#Library : Models: Simulink
+#DataSet : ekf
+#Category: 
+#FileID  : Simlink_874dacc5-a0ad-41e1-8137-89a50f13bd2b
+#Created : 02-20-2024 12:19:03
+#Modified: 04-10-2024 14:31:12
+#Product : CarSim 2022.1
+#DataVer : 2022.1
+#VehCode 
+
+END
