@@ -1,0 +1,27 @@
+2024-04-19T17:14:00 Logfile initialized.
+2024-04-19T17:14:00 (Info):    CarSim 2022.1
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    command-line: 
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    Working Dir: D:\NVR_Control\Lateral_V_Git\carsim_DataBase\
+2024-04-19T17:14:00 (Info):    Program Dir: D:\carsim2022\CarSim2022.1_Prog\
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    OS Version:        6.2 (build 9200)
+2024-04-19T17:14:00 (Info):    CPU Architecture:  x64
+2024-04-19T17:14:00 (Info):    CPU Count:         12
+2024-04-19T17:14:00 (Info):    CPU Level/Rev:     6/42242
+2024-04-19T17:14:00 (Info):    Start Mem Total:   16149 MB
+2024-04-19T17:14:00 (Info):    Start Mem Used:    82%
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    Loaded dataset index cache in 0.00s, 0.7 megabytes.
+2024-04-19T17:14:00 (Info):    Error: A license manager is already running.
+2024-04-19T17:14:01 (Info):    License check took 0.44 seconds.
+2024-04-19T17:14:01 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2022.1".
+2024-04-19T17:14:01 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2022.1".
+2024-04-19T17:14:01 (Info):    Initial setup took 0.70 seconds.
+2024-04-19T17:14:02 (Info):    Auto updates took 0.00 seconds.
+2024-04-19T17:14:02 (Info):    Loaded last screen in 0.20 seconds.
+2024-04-19T17:14:02 (Info):    Total init time 1.66 seconds.
+2024-04-19T17:14:23 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_PUSH_WEAK <<i>> 0 ! Only the first time
+2024-04-19T17:14:23 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_ADD <<i>> 1 ! increment for each object
+2024-04-19T17:21:36 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #S
