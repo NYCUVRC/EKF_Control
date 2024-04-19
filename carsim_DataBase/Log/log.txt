@@ -1,114 +1,27 @@
-2024-04-19T15:33:47 Logfile initialized.
-2024-04-19T15:33:47 (Info):    CarSim 2022.1
-2024-04-19T15:33:47 (Info):    -
-2024-04-19T15:33:47 (Info):    command-line: 
-2024-04-19T15:33:47 (Info):    -
-2024-04-19T15:33:47 (Info):    Working Dir: D:\carsim_test\
-2024-04-19T15:33:47 (Info):    Program Dir: D:\carsim2022\CarSim2022.1_Prog\
-2024-04-19T15:33:47 (Info):    -
-2024-04-19T15:33:47 (Info):    OS Version:        6.2 (build 9200)
-2024-04-19T15:33:47 (Info):    CPU Architecture:  x64
-2024-04-19T15:33:47 (Info):    CPU Count:         12
-2024-04-19T15:33:47 (Info):    CPU Level/Rev:     6/42242
-2024-04-19T15:33:47 (Info):    Start Mem Total:   16149 MB
-2024-04-19T15:33:47 (Info):    Start Mem Used:    62%
-2024-04-19T15:33:47 (Info):    -
-2024-04-19T15:33:47 (Info):    Loaded dataset index cache in 0.02s, 0.7 megabytes.
-2024-04-19T15:33:47 (Info):    Feature                  Source                       Version  Acquired  Count
-2024-04-19T15:33:47 (Info):    -----------------        -----------------            -------  --------  -----
-2024-04-19T15:33:47 (Info):    bikesimsguixx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimxx                ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimtxx               ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimsmoxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimsmortxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimsrcxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimsrctxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimopalxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimopaltxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimlinuxxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimlinuxtxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimdspacexx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimdspacetxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimadixx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimaditxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimlabviewxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimlabviewtxx        ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimwdsxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimwdstxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimfrtxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimfxx               ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimlabcarxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimlabcartxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimanixx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimrtsvrxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimrtsvrtxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimartelabxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimartelabtxx        ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimepixx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimengmtxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    bikesimengmtrtxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimsguixx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimxx               ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimsmoxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimsmortxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimtxx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimsrcxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimsrctxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimopalxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimopaltxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimlinuxxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimlinuxtxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimdspacexx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimdspacetxx        ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimadixx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimaditxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimlabviewxx        ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimlabviewtxx       ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimwdsxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimwdstxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimfrtxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimfxx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimlabtruckxx       ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimlabtrucktxx      ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimanixx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimrtsvrxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimrtsvrtxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimartelabxx        ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimartelabtxx       ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimepixx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimengmtxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    trucksimengmtrtxx        ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimsguixx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimxx                 ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimtxx                ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimsmoxx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimsmortxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimsrcxx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimsrctxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimopalxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimopaltxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimlinuxxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimlinuxtxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimdspacexx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimdspacetxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimadixx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimaditxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimlabviewxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimlabviewtxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimwdsxx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimwdstxx             ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimfrtxx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimfxx                ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimlabcarxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimlabcartxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimanixx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimrtsvrxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimrtsvrtxx           ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimartelabxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimartelabtxx         ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimepixx              ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimengmtxx            ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    carsimengmtrtxx          ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:47 (Info):    sussimxx                 ...22.1_Prog\MSCLIC_SSQ.dat  2022     [   ]          
-2024-04-19T15:33:50 (Info):    153 index cache entries written in 0.000s
-2024-04-19T15:33:51 (Info):    Exiting application...
+2024-04-19T17:14:00 Logfile initialized.
+2024-04-19T17:14:00 (Info):    CarSim 2022.1
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    command-line: 
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    Working Dir: D:\NVR_Control\Lateral_V_Git\carsim_DataBase\
+2024-04-19T17:14:00 (Info):    Program Dir: D:\carsim2022\CarSim2022.1_Prog\
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    OS Version:        6.2 (build 9200)
+2024-04-19T17:14:00 (Info):    CPU Architecture:  x64
+2024-04-19T17:14:00 (Info):    CPU Count:         12
+2024-04-19T17:14:00 (Info):    CPU Level/Rev:     6/42242
+2024-04-19T17:14:00 (Info):    Start Mem Total:   16149 MB
+2024-04-19T17:14:00 (Info):    Start Mem Used:    82%
+2024-04-19T17:14:00 (Info):    -
+2024-04-19T17:14:00 (Info):    Loaded dataset index cache in 0.00s, 0.7 megabytes.
+2024-04-19T17:14:00 (Info):    Error: A license manager is already running.
+2024-04-19T17:14:01 (Info):    License check took 0.44 seconds.
+2024-04-19T17:14:01 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2022.1".
+2024-04-19T17:14:01 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2022.1".
+2024-04-19T17:14:01 (Info):    Initial setup took 0.70 seconds.
+2024-04-19T17:14:02 (Info):    Auto updates took 0.00 seconds.
+2024-04-19T17:14:02 (Info):    Loaded last screen in 0.20 seconds.
+2024-04-19T17:14:02 (Info):    Total init time 1.66 seconds.
+2024-04-19T17:14:23 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_PUSH_WEAK <<i>> 0 ! Only the first time
+2024-04-19T17:14:23 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #SYMBOL_ADD <<i>> 1 ! increment for each object
+2024-04-19T17:21:36 (Info):    ! --- Symbol Stack Error: "Sensors_Traffic\Traffic\TMotion_7eebfaf2-736d-4fc8-8710-ce4ecdfcfa7a.par" (undefined symbol "i"): #S
