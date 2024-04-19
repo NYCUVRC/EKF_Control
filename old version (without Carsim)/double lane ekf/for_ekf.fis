@@ -1,0 +1,32 @@
+[System]
+Name='for_ekf'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=3
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='input1'
+Range=[-30 30]
+NumMFs=3
+MF1='high1':'linzmf',[-20 -10]
+MF2='mf2':'trapmf',[-20 -10 10 20]
+MF3='high2':'linsmf',[10 20]
+
+[Output1]
+Name='output1'
+Range=[0 10000]
+NumMFs=2
+MF1='mf1':'trimf',[10000 10000 10000]
+MF2='mf2':'trimf',[0 0 0]
+
+[Rules]
+1, 1 (1) : 1
+3, 1 (1) : 1
+2, 2 (1) : 1
